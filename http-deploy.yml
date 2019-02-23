@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: 3.16.108.69:8081/artifactory/kierandocker/helloweb:latest
+        image: 3.16.108.69:8081/kierandocker/helloweb:latest
         ports:
         - name: http-port
           containerPort: 80
